@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.title("Jorge Fernández de Alarcón")
+st.title("Jorge Fernández de Alarcón ") 
 
 def load_data():
     df = pd.read_csv("airbnb.csv")  # Ensure this file is in the same directory as the script
